@@ -130,6 +130,8 @@ Ruby
   instead to emphasize code branches.
 * Avoid explicit return statements.
 * Avoid using semicolons.
+* Avoid appending bang (!) to method names, unless you a safe method with
+  the same name exists.
 * Don't use `self` explicitly anywhere except class methods (`def self.method`)
   and assignments (`self.attribute =`).
 * Prefer `detect` over `find`.
